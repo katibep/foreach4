@@ -39,6 +39,11 @@ body {
 .assignment1 .assignment2 .image img {
   border-radius: 7px;
 }
+@media (max-width: 768px) {
+  .assignment1 .assignment2 .image img {
+    width: 100%;
+  }
+}
 .assignment1 .assignment2 .title {
   display: flex;
   flex-direction: column;
