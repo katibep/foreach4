@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.assignment1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .assignment1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+}
+.assignment1 .assignment2 {
+  background-color: white;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.assignment1 .assignment2 .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(220, 220, 220, 0.8);
+  border-radius: 6px;
+}
+.assignment1 .assignment2 .image img {
+  border-radius: 7px;
+}
+.assignment1 .assignment2 .title {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  color: black;
+  gap: 5px;
+  margin-top: 1rem;
+}
+.assignment1 .assignment2 .title a {
+  background-color: greenyellow;
+  color: black;
+  width: 50%;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .assignment1 .assignment2 .title a {
+    width: 80%;
+  }
+}/*# sourceMappingURL=style.css.map */
